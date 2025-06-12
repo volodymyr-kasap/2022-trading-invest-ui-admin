@@ -1,0 +1,135 @@
+// THEME PALETTE
+
+// Basic
+$color-white: #fff;
+$color-black: #000;
+
+// Primary
+$color-primary-lighten-1: #E5EEFF;
+$color-primary-lighten: #7BA3EF;
+$color-primary: #3371E5;
+$color-primary-darken: #295EC2;
+$color-primary-darken-1: #1E4B9F;
+$color-primary-alpha-10: rgba(#3371E5, .1);
+$color-primary-alpha-30: rgba(#3371E5, .3);
+$color-primary-alpha-40: rgba(#3371E5, .4);
+$color-primary-alpha-60: rgba(#3371E5, .6);
+$color-primary-alpha-70: rgba(#3371E5, .7);
+
+// Neutral
+$test: #DCDFE6;
+$color-neutral-light: #F5F4F5;
+$color-neutral-light-1: #ECEEF3;
+$color-neutral-light-2: #E5E5E5;
+$color-neutral-light-3: #C0C4CC;
+$color-neutral-light-4: #919398;
+$color-neutral-dark-2: #747485;
+$color-neutral-dark-1: #4A4A56;
+$color-neutral-dark: #232332;
+
+$color-neutral-light-alpha-06: rgba(#FFFFFF, .06);
+$color-neutral-light-alpha-10: rgba(#FFFFFF, .1);
+$color-neutral-light-alpha-30: rgba(#FFFFFF, .3);
+$color-neutral-light-alpha-70: rgba(#FFFFFF, .7);
+$color-neutral-dark-alpha-06: rgba(#000000, .06);
+$color-neutral-dark-alpha-10: rgba(#000000, .1);
+$color-neutral-dark-alpha-30: rgba(#000000, .3);
+$color-neutral-dark-alpha-70: rgba(#000000, .7);
+
+// Success
+$color-success-lighten-1: #DEEFD2;
+$color-success-lighten: #C4FF78;
+$color-success: #7EBF50;
+$color-success-alpha-10: rgba(#7EBF50, .1);
+$color-success-alpha-30: rgba(#7EBF50, .3);
+$color-success-alpha-70: rgba(#7EBF50, .7);
+
+// Warning
+$color-warning-lighten-1: #FDF6EC;
+$color-warning-lighten: #E6BC7D;
+$color-warning: #DDA550;
+$color-warning-alpha-10: rgba(#DDA550, .1);
+$color-warning-alpha-20: rgba(#DDA550, .2);
+$color-warning-alpha-30: rgba(#DDA550, .3);
+$color-warning-alpha-70: rgba(#DDA550, .7);
+
+// Danger
+$color-danger-lighten-1: #FEF0F0;
+$color-danger-lighten: #F0B5B2;
+$color-danger: #E37470;
+$color-danger-alpha-10: rgba(#E37470, .1);
+$color-danger-alpha-30: rgba(#E37470, .3);
+$color-danger-alpha-70: rgba(#E37470, .7);
+
+// THEME COLORS
+
+:root {
+  // Basic
+  --color-white: #{ $color-white };
+  --color-black: #{ $color-black };
+
+  // Primary
+  --color-primary-lighten-1: #{ $color-primary-lighten-1 };
+  --color-primary-lighten: #{ $color-primary-lighten };
+  --color-primary: #{ $color-primary };
+  --color-primary-darken: #{ $color-primary-darken };
+  --color-primary-darken-1: #{ $color-primary-darken-1 };
+  --color-primary-alpha-10: #{ $color-primary-alpha-10 };
+  --color-primary-alpha-30: #{ $color-primary-alpha-30 };
+  --color-primary-alpha-40: #{ $color-primary-alpha-40 };
+  --color-primary-alpha-60: #{ $color-primary-alpha-60 };
+  --color-primary-alpha-70: #{ $color-primary-alpha-70 };
+
+  // Text
+  --color-text-highlighting: #{ $color-neutral-light };
+  --color-text-headline: #{ $color-neutral-dark };
+  --color-text-regular: #{ $color-neutral-dark-1 };
+  --color-text-regular-darken: #{ $color-neutral-dark-2 };
+  --color-text-regular-lighten: #{ $color-neutral-light-2 };
+  --color-text-caption-lighten: #{ $color-neutral-light-3 };
+  --color-text-caption: #{ $color-neutral-light-4 };
+
+  // Background
+  --color-bg-white: #{ $color-white };
+  --color-bg-highlighting: #{ $color-neutral-light };
+  --color-bg-lighten: #{ $color-neutral-light-1 };
+  --color-bg-additional: #{ $color-neutral-light-alpha-06 };
+  --color-bg-transparent-light-10: #{ $color-neutral-light-alpha-10 };
+  --color-bg-transparent-light-30: #{ $color-neutral-light-alpha-30 };
+  --color-bg-transparent-light-70: #{ $color-neutral-light-alpha-70 };
+  --color-bg-transparent-dark-10: #{ $color-neutral-dark-alpha-10 };
+  --color-bg-transparent-dark-30: #{ $color-neutral-dark-alpha-30 };
+  --color-bg-transparent-dark-70: #{ $color-neutral-dark-alpha-70 };
+
+  // Border
+  --color-border-grey-light-2: #{ $color-neutral-light-2 };
+  --color-border-white-light-1: #{ $color-neutral-light-1 };
+
+  // User
+  --color-user: #FF7878;
+
+  // Success
+  --color-success-lighten-1: #{ $color-success-lighten-1 };
+  --color-success-lighten: #{ $color-success-lighten };
+  --color-success: #{ $color-success };
+  --color-success-alpha-10: #{ $color-success-alpha-10 };
+  --color-success-alpha-30: #{ $color-success-alpha-30 };
+  --color-success-alpha-70: #{ $color-success-alpha-70 };
+
+  // Warning
+  --color-warning-lighten-1: #{ $color-warning-lighten-1 };
+  --color-warning-lighten: #{ $color-warning-lighten };
+  --color-warning: #{ $color-warning };
+  --color-warning-alpha-10: #{ $color-warning-alpha-10 };
+  --color-warning-alpha-20: #{ $color-warning-alpha-20 };
+  --color-warning-alpha-30: #{ $color-warning-alpha-30 };
+  --color-warning-alpha-70: #{ $color-warning-alpha-70 };
+
+  // Danger
+  --color-danger-lighten-1: #{ $color-danger-lighten-1 };
+  --color-danger-lighten: #{ $color-danger-lighten };
+  --color-danger: #{ $color-danger };
+  --color-danger-alpha-10: #{ $color-danger-alpha-10 };
+  --color-danger-alpha-30: #{ $color-danger-alpha-30 };
+  --color-danger-alpha-70: #{ $color-danger-alpha-70 };
+}

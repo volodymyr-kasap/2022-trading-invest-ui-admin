@@ -1,0 +1,169 @@
+@import "../vars";
+
+// Mixins fonts
+
+@mixin use-font (
+  $font-weight: --font-weight-regular,
+  $font-size: 12px,
+  $line-height: 1.4
+) {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+@mixin font-title-1-bold {
+  @include use-font(
+    var(--font-weight-bold),
+    var(--font-size-title-1),
+    var(--line-height-120),
+  )
+}
+@mixin font-title-1-medium {
+  @include use-font(
+      var(--font-weight-medium),
+      var(--font-size-title-1),
+      var(--line-height-120),
+  )
+}
+@mixin font-title-1-regular {
+  @include use-font(
+      var(--font-weight-regular),
+      var(--font-size-title-1),
+      var(--line-height-120),
+  )
+}
+@mixin font-title-2-bold {
+  @include use-font(
+      var(--font-weight-bold),
+      var(--font-size-title-2),
+      var(--line-height-120),
+  )
+}
+@mixin font-title-2-medium {
+  @include use-font(
+      var(--font-weight-medium),
+      var(--font-size-title-2),
+      var(--line-height-120),
+  )
+}
+@mixin font-title-2-regular {
+  @include use-font(
+      var(--font-weight-regular),
+      var(--font-size-title-2),
+      var(--line-height-120),
+  )
+}
+
+@mixin font-headline-bold {
+  @include use-font(
+      var(--font-weight-bold),
+      var(--font-size-headline),
+      var(--line-height-120),
+  )
+}
+@mixin font-headline-medium {
+  @include use-font(
+      var(--font-weight-medium),
+      var(--font-size-headline),
+      var(--line-height-120),
+  )
+}
+@mixin font-headline-regular {
+  @include use-font(
+      var(--font-weight-regular),
+      var(--font-size-headline),
+      var(--line-height-120),
+  )
+}
+
+@mixin font-text-bold {
+  @include use-font(
+      var(--font-weight-bold),
+      var(--font-size-text),
+      var(--line-height-140),
+  )
+}
+@mixin font-text-medium {
+  @include use-font(
+      var(--font-weight-medium),
+      var(--font-size-text),
+      var(--line-height-140),
+  )
+}
+@mixin font-text-regular {
+  @include use-font(
+      var(--font-weight-regular),
+      var(--font-size-text),
+      var(--line-height-140),
+  )
+}
+
+@mixin font-subhead-bold {
+  @include use-font(
+      var(--font-weight-bold),
+      var(--font-size-subhead),
+      var(--line-height-120),
+  )
+}
+@mixin font-subhead-medium {
+  @include use-font(
+      var(--font-weight-medium),
+      var(--font-size-subhead),
+      var(--line-height-120),
+  )
+}
+@mixin font-subhead-regular {
+  @include use-font(
+      var(--font-weight-regular),
+      var(--font-size-subhead),
+      var(--line-height-120),
+  )
+}
+
+@mixin font-caption-1-bold {
+  @include use-font(
+      var(--font-weight-bold),
+      var(--font-size-caption-1),
+      var(--line-height-120),
+  )
+}
+@mixin font-caption-1-medium {
+  @include use-font(
+      var(--font-weight-medium),
+      var(--font-size-caption-1),
+      var(--line-height-120),
+  )
+}
+@mixin font-caption-1-regular {
+  @include use-font(
+      var(--font-weight-regular),
+      var(--font-size-caption-1),
+      var(--line-height-120),
+  )
+}
+
+@mixin font-caption-2-bold {
+  @include use-font(
+      var(--font-weight-bold),
+      var(--font-size-caption-2),
+      var(--line-height-120),
+  )
+}
+@mixin font-caption-2-medium {
+  @include use-font(
+      var(--font-weight-medium),
+      var(--font-size-caption-2),
+      var(--line-height-120),
+  )
+}
+@mixin font-caption-2-regular {
+  @include use-font(
+      var(--font-weight-regular),
+      var(--font-size-caption-2),
+      var(--line-height-120),
+  )
+}

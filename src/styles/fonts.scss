@@ -1,0 +1,130 @@
+@mixin font-face-formular {
+  @font-face {
+    font-family: 'Formular';
+    src: url('@/assets/fonts/formular/Formular.eot');
+    src: local('./formular/Formular'),
+    url('@/assets/fonts/formular/Formular.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/formular/Formular.woff2') format('woff2'),
+    url('@/assets/fonts/formular/Formular.woff') format('woff'),
+    url('@/assets/fonts/formular/Formular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+@mixin font-face-formular-italic {
+  @font-face {
+    font-family: 'Formular';
+    src: url('@/assets/fonts/formular/Formular-Italic.eot');
+    src: local('./formular/Formular Italic'), local('./formular/Formular-Italic'),
+    url('@/assets/fonts/formular/Formular-Italic.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/formular/Formular-Italic.woff2') format('woff2'),
+    url('@/assets/fonts/formular/Formular-Italic.woff') format('woff'),
+    url('@/assets/fonts/formular/Formular-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+@mixin font-face-formular-light {
+  @font-face {
+    font-family: 'Formular';
+    src: url('@/assets/fonts/formular/Formular-Light.eot');
+    src: local('./formular/Formular Light'), local('./formular/Formular-Light'),
+    url('@/assets/fonts/formular/Formular-Light.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/formular/Formular-Light.woff2') format('woff2'),
+    url('@/assets/fonts/formular/Formular-Light.woff') format('woff'),
+    url('@/assets/fonts/formular/Formular-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+}
+@mixin font-face-formular-light-italic {
+  @font-face {
+    font-family: 'Formular';
+    src: url('@/assets/fonts/formular/Formular-LightItalic.eot');
+    src: local('./formular/Formular Light Italic'), local('./formular/Formular-LightItalic'),
+    url('@/assets/fonts/formular/Formular-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/formular/Formular-LightItalic.woff2') format('woff2'),
+    url('@/assets/fonts/formular/Formular-LightItalic.woff') format('woff'),
+    url('@/assets/fonts/formular/Formular-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+}
+@mixin font-face-formular-medium {
+  @font-face {
+    font-family: 'Formular';
+    src: url('@/assets/fonts/formular/Formular-Medium.eot');
+    src: local('./formular/Formular Medium'), local('./formular/Formular-Medium'),
+    url('@/assets/fonts/formular/Formular-Medium.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/formular/Formular-Medium.woff2') format('woff2'),
+    url('@/assets/fonts/formular/Formular-Medium.woff') format('woff'),
+    url('@/assets/fonts/formular/Formular-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+}
+@mixin font-face-formular-medium-italic {
+  @font-face {
+    font-family: 'Formular';
+    src: url('@/assets/fonts/formular/Formular-MediumItalic.eot');
+    src: local('./formular/Formular Medium Italic'), local('./formular/Formular-MediumItalic'),
+    url('@/assets/fonts/formular/Formular-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/formular/Formular-MediumItalic.woff2') format('woff2'),
+    url('@/assets/fonts/formular/Formular-MediumItalic.woff') format('woff'),
+    url('@/assets/fonts/formular/Formular-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+  }
+}
+@mixin font-face-formular-bold {
+  @font-face {
+    font-family: 'Formular';
+    src: url('@/assets/fonts/formular/Formular-Bold.eot');
+    src: local('./formular/Formular Bold'), local('./formular/Formular-Bold'),
+    url('@/assets/fonts/formular/Formular-Bold.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/formular/Formular-Bold.woff2') format('woff2'),
+    url('@/assets/fonts/formular/Formular-Bold.woff') format('woff'),
+    url('@/assets/fonts/formular/Formular-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+@mixin font-face-formular-bold-italic {
+  @font-face {
+    font-family: 'Formular';
+    src: url('@/assets/fonts/formular/Formular-BoldItalic.eot');
+    src: local('./formular/Formular Bold Italic'), local('./formular/Formular-BoldItalic'),
+    url('@/assets/fonts/formular/Formular-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/formular/Formular-BoldItalic.woff2') format('woff2'),
+    url('@/assets/fonts/formular/Formular-BoldItalic.woff') format('woff'),
+    url('@/assets/fonts/formular/Formular-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+  }
+}
+@mixin font-face-formular-black {
+  @font-face {
+    font-family: 'Formular';
+    src: url('@/assets/fonts/formular/Formular-Black.eot');
+    src: local('./formular/Formular Black'), local('./formular/Formular-Black'),
+    url('@/assets/fonts/formular/Formular-Black.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/formular/Formular-Black.woff2') format('woff2'),
+    url('@/assets/fonts/formular/Formular-Black.woff') format('woff'),
+    url('@/assets/fonts/formular/Formular-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+}
+@mixin font-face-formular-black-italic {
+  @font-face {
+    font-family: 'Formular';
+    src: url('@/assets/fonts/formular/Formular-BlackItalic.eot');
+    src: local('./formular/Formular Black Italic'), local('./formular/Formular-BlackItalic'),
+    url('@/assets/fonts/formular/Formular-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/formular/Formular-BlackItalic.woff2') format('woff2'),
+    url('@/assets/fonts/formular/Formular-BlackItalic.woff') format('woff'),
+    url('@/assets/fonts/formular/Formular-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+  }
+}

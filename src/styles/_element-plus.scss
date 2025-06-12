@@ -1,0 +1,176 @@
+@import "./mixins/fonts";
+
+.el-button {
+  border-radius: 12px;
+  padding: 8px 20px 8px 20px;
+
+  &--primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+
+  &--default {
+    color: var(--color-text-regular) !important;
+  }
+}
+
+.el-input {
+  &__wrapper {
+    border-radius: 12px;
+  }
+
+  &__inner {
+    border-radius: 12px !important;
+  }
+
+  &-group {
+    &__append {
+      background: transparent;
+      border-radius: 0 12px 12px 0;
+    }
+  }
+}
+
+.el-table {
+  padding: 0 20px 20px 20px;
+  border-radius: 12px;
+  border: 1px solid var(--color-border-grey-light-2);
+
+  &::before {
+    height: 0;
+  }
+
+  &__header, &__empty-block, &__body {
+    width: 100% !important;
+  }
+
+  .is-leaf {
+    padding: 20px 0 !important;
+  }
+
+  &__cell {
+    padding: 6px 0 !important;
+    border-bottom: none !important;
+  }
+
+  &__header {
+    border-bottom: var(--el-table-border);
+
+    tr {
+      color: var(--color-text-regular);
+    }
+
+    th {
+      padding: 20px 0;
+    }
+  }
+
+  &__body {
+    margin-top: 14px;
+
+    td {
+      color: var(--color-text-regular);
+    }
+  }
+
+  &__empty-text {
+    font-size: 16px;
+    color: var(--color-text-caption-lighten);
+  }
+
+  &__inner {
+    &-wrapper {
+      &::before {
+        height: 0;
+      }
+    }
+  }
+}
+
+.el-dialog {
+  border-radius: 10px;
+
+  &__header {
+    i {
+      font-size: 20px;
+      font-weight: var(--font-weight-bold);
+      margin-right: 10px;
+    }
+  }
+
+  &__body {
+    h2 {
+      word-break: break-word;
+      line-height: 1.4;
+      margin: 0;
+    }
+
+    p {
+      color: var(--color-text-regular);
+      word-break: break-word;
+    }
+  }
+}
+
+.el-form {
+  h2 {
+    margin: 40px 0 26px 0;
+  }
+
+  &-item {
+    max-width: 522px;
+
+    &__content {
+      display: flex;
+    }
+
+    &__label {
+      width: 200px;
+      text-align: left;
+      color: var(--color-text-regular-darken);
+    }
+  }
+
+  .el-input, .el-select {
+    width: 100%;
+  }
+
+  .el-textarea {
+    &__inner {
+      border-radius: 10px;
+    }
+  }
+}
+
+.el-upload {
+  border: 1px dashed var(--color-primary-alpha-40);
+  position: relative;
+  width: 250px;
+  height: 250px;
+
+  i.el-icon-plus {
+    position: absolute;
+    color: var(--color-primary-alpha-60);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    font-size: 30px;
+    font-weight: var(--font-weight-bold);
+  }
+}
+
+.el-popper {
+  border-radius: 8px;
+}
+
+.el-table table th, .el-button {
+  @include font-text-medium;
+  line-height: var(--line-height-110);
+}
+
+.el-table table td, .el-form .el-form-item__label {
+  @include font-text-regular;
+}
+
+.el-picker-panel > *, .el-scrollbar > * {
+  font-family: var(--font-family);
+}

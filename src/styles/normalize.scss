@@ -1,0 +1,54 @@
+@import "./mixins/fonts";
+
+body {
+  @include font-text-regular;
+
+  margin: 0;
+  overflow: auto !important;
+  background: #FFF;
+  color: #4A4A56;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  color: #232332;
+}
+
+h1 {
+  @include font-title-1-bold;
+}
+
+h2 {
+  @include font-title-2-medium;
+}
+
+h3 {
+  @include font-headline-bold;
+}
+
+button {
+  font-family: var(--font-family);
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+input, textarea {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
+  font-size: 16px !important;
+}
+
